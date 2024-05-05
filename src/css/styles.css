@@ -5,8 +5,13 @@
 }
 
 body {
-    background-color: violet;
-    font-family: "Protest Riot", sans-serif;
+    background: #ee9ca7;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to top, #ffdde1, #ee9ca7);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to top, #ffdde1, #ee9ca7);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
     letter-spacing: 0.02em;
 }
 
@@ -25,7 +30,7 @@ img {
 }
 
 .form-div {
-    background-color: rgb(199, 218, 215);
+    background-color: #ee9ca7;
     position: fixed;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -89,10 +94,10 @@ img {
     height: 100px;
     padding-left: 20px;
     padding-right: 20px;
-    background-color: rgb(199, 218, 215);
+    background-color: red;
     border-radius: 8px;
-    border-color: rgb(199, 218, 215);
-    border: 6px solid rgb(199, 218, 215);
+    border-color: red;
+    border: 6px solid red;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 
@@ -109,10 +114,10 @@ img {
 }
 
 .photo-card {
-    background-color: bisque;
+    background-color: #ffdde1;
     border-radius: 8px;
-    border-color: rgb(199, 218, 215);
-    border: 6px solid rgb(199, 218, 215);
+    border-color: #ffdde1;
+    border: 6px solid #ffdde1;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 
