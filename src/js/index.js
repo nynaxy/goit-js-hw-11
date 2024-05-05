@@ -96,7 +96,7 @@ async function loadMore(){
 
 async function fetchPixabay(qValue, page) {
     const searchParams = new URLSearchParams({
-    key: "43731896-5811be0b712c2ad5da2549bb8",
+    key: "42474865-55c278fe0045234625bd75cd9",
     q: qValue,
     image_type: "photo",
     orientation: "horizontal",
