@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+background: #ee9ca7;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #ffdde1, #ee9ca7);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #ffdde1, #ee9ca7);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    letter-spacing: 0.02em;
+}
+
+img {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.form-div {
+    background-color: rgb(199, 218, 215);
+    position: fixed;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+
+}
+
+.search-form {
+
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.search-form input {
+    border-radius: 4px;
+    padding: 5px 10px;
+    font-family: "Protest Riot", sans-serif;
+    letter-spacing: 0.02em;
+    font-size: large;
+    width: 500px;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+
+.search-form button {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    padding: 5px;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+
+.load {
+    display: flex;
+    justify-content: center;
+}
+
+.load-more {
+
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 10px 15px;
+    font-family: "Protest Riot", sans-serif;
+    letter-spacing: 0.02em;
+    font-size: large;
+    margin: 10px 0;
+
+}
+
+.end-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(199, 218, 215);
+    border-radius: 8px;
+    border-color: rgb(199, 218, 215);
+    border: 6px solid rgb(199, 218, 215);
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+
+
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 15px;
+    padding-top: 100px;
+    gap: 20px;
+}
+
+.photo-card {
+    background-color: bisque;
+    border-radius: 8px;
+    border-color: rgb(199, 218, 215);
+    border: 6px solid rgb(199, 218, 215);
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+
+}
+
+.photo-card img {
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 8px 8px 0 0px;
+    height: 200px;
+    width: 350px;
+}
+
+.info {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 15px;
+    width: 350px;
+
+}
